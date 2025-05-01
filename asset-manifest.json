@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/airport-parking/static/css/main.f855e6bc.css",
+    "main.js": "/airport-parking/static/js/main.41ab8e4e.js",
+    "static/js/453.e2a3df7f.chunk.js": "/airport-parking/static/js/453.e2a3df7f.chunk.js",
+    "index.html": "/airport-parking/index.html",
+    "main.f855e6bc.css.map": "/airport-parking/static/css/main.f855e6bc.css.map",
+    "main.41ab8e4e.js.map": "/airport-parking/static/js/main.41ab8e4e.js.map",
+    "453.e2a3df7f.chunk.js.map": "/airport-parking/static/js/453.e2a3df7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.41ab8e4e.js"
+  ]
+}
