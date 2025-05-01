@@ -10,10 +10,25 @@ import BlogPost2 from './pages/BlogPost2';
 import AboutPage from './pages/AboutPage';
 import './App.css';
 
+// Get the base name from the package.json homepage or default to "/"
+const getBasename = () => {
+  try {
+    // Extract the path from the homepage URL if it exists
+    const { homepage } = require('../package.json');
+    if (homepage) {
+      // Parse the URL to get the pathname
+      return new URL(homepage).pathname;
+    }
+  } catch (e) {
+    // Silent error - fall back to "/"
+  }
+  return '/';
+};
+
 function App() {
   return (
     <HelmetProvider>
-      <Router>
+      <Router basename={getBasename()}>
         <Header />
         <main>
           <Routes>
